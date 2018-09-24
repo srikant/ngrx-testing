@@ -1,0 +1,69 @@
+Jest
+
+npm remove karma karma-chrome-launcher karma-coverage-istanbul-reporter karma-jasmine karma-jasmine-html-reporter
+
+rm karma.config.js src/test.ts
+
+npm i jest
+npm i jest-cli
+
+npm i -D jest @angular-builders/jest
+
+…
+Install globally
+npm install -g @briebug/jest-schematic
+
+Then in an Angular CLI project run
+ng g @briebug/jest-schematic:add
+ng add @briebug/jest-schematic
+
+
+DELETE src/karma.conf.js
+CREATE jest.config.js (442 bytes)
+CREATE src/setup-jest.ts (801 bytes)
+CREATE src/test-config.helper.ts (617 bytes)
+UPDATE package.json (1254 bytes)
+UPDATE angular.json (3142 bytes)
+
+package.json
+"test": "jest",
+  "jest": "^22.4.4",
+    "jest-preset-angular": "^5.0.0",
+
+
+
+
+https://github.com/ngrx/platform/tree/master/projects/example-app
+https://github.com/ngrx/platform/blob/master/projects/example-app/jest.config.js
+https://github.com/ngrx/platform/tree/master/projects/example-app-e2e/src
+https://github.com/ngrx/platform/blob/master/package.json
+https://github.com/ngrx/platform/tree/master/projects
+https://www.npmjs.com/package/jest
+https://www.npmjs.com/package/jest-cli
+https://medium.com/dailyjs/angular-cli-6-under-the-hood-builders-demystified-f0690ebcf01
+https://codeburst.io/angular-6-ng-test-with-jest-in-3-minutes-b1fe5ed3417c
+https://codeburst.io/
+https://www.xfive.co/blog/testing-angular-faster-jest/
+https://github.com/meltedspark/angular-builders/tree/master/packages/jest#builder-options
+https://medium.com/dailyjs/angular-cli-6-under-the-hood-builders-demystified-f0690ebcf01
+https://www.youtube.com/results?search_query=angular+jest&sp=CAASAhAB
+https://cli.angular.io/
+https://github.com/briebug
+https://github.com/briebug/jest-schematic
+https://github.com/briebug/jest-schematic
+https://github.com/angular/angular-cli/blob/master/packages/schematics/angular/app-shell/index.ts
+https://github.com/briebug/presentations
+https://github.com/facebook/jest/issues?utf8=%E2%9C%93&q=angular
+https://github.com/facebook/jest/issues/6154
+
+
+https://www.lambda-it.ch/blog/post/using-jest-with-angular
+https://brianflove.com/2018/05/26/angular-jest-testing/
+https://blog.angularindepth.com/integrate-jest-into-an-angular-application-and-library-163b01d977ce
+https://github.com/blove/ngrx-testing/tree/master
+https://blog.angular.io/angular-schematics-unit-testing-3a0a9aaab186
+https://github.com/thymikee/jest-preset-angular
+https://github.com/davinkevin/jest
+https://blog.nrwl.io/nrwl-nx-6-3-faster-testing-with-jest-20a8ddb5064
+
+https://nitayneeman.com/posts/making-an-addable-angular-package-using-schematics/
