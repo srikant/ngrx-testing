@@ -67,3 +67,14 @@ https://github.com/davinkevin/jest
 https://blog.nrwl.io/nrwl-nx-6-3-faster-testing-with-jest-20a8ddb5064
 
 https://nitayneeman.com/posts/making-an-addable-angular-package-using-schematics/
+
+..
+https://github.com/mbfisher/seek-style-guide/commit/8a153d146acae8df1100d4032d6b1ba09800aad2
+https://github.com/cerner/terra-core/pull/1733
+https://github.com/facebook/jest/issues/6766
+https://github.com/facebook/jest/issues/6769
+https://github.com/jsdom/jsdom/issues/2304
+https://github.com/blove/ngrx-testing/issues/7
+https://github.com/blove/ngrx-testing/blob/master/package.json
+https://github.com/blove/ngrx-testing/blob/master/angular.json
+https://github.com/blove/ngrx-testing/blob/master/jest.config.js
